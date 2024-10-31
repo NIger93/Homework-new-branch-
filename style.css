@@ -7,7 +7,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center ;
 background-color: chartreuse; }
-.btn{
+.toggleButton{
     width: auto;
     height: auto;
     color: rgb(255, 255, 255);
@@ -17,3 +17,12 @@ background-color: chartreuse; }
     text-align: center ;
 background-color: rgb(25, 2, 105);
 }
+body {
+    transition: background-color 0.3s; 
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+
