@@ -4,5 +4,8 @@ $(document).ready(function () {
         document.body.classList.toggle('dark-mode');
 
     });
+    
 });
-
+function hideImage(image) {
+    image.classList.add("hidden");
+}

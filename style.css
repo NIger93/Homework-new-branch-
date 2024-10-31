@@ -1,36 +1,51 @@
-.head{
+.head {
     width: auto;
     height: auto;
     color: black;
     top: auto;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center ;
-background-color: chartreuse; }
-.toggleButton{
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.toggleButton {
     width: auto;
     height: auto;
     color: rgb(255, 255, 255);
     top: auto;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center ;
-background-color: rgb(25, 2, 105);
+    text-align: center;
+    background-color: rgb(25, 2, 105);
 }
+
 body {
-    transition: background-color 0.3s; 
+    transition: background-color 0.3s;
 }
+
 .dark-mode {
     background-color: black;
     color: white;
-  }
-  img{
+}
+
+img {
     border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 18px;
-  }
+}
 
-
+.photo{
+    width: 200px;
+    height: auto;
+    position: 150px,50px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
