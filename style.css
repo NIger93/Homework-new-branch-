@@ -28,8 +28,7 @@ body {
     background-color: black;
     color: white;
 }
-
-img {
+.indian-guy {
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -41,7 +40,9 @@ img {
 .photo{
     width: 200px;
     height: auto;
-    position: 150px,50px;
+    position: absolute;
+    top: 45%;
+    left: 43%;
     cursor: pointer;
     transition: opacity 0.5s;
 }
